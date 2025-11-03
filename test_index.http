@@ -1,0 +1,14 @@
+# Test your HIFI-API endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/search/?q=Mine
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/track/?id=286266926&quality=LOSSLESS
+Accept: application/json
